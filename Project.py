@@ -42,7 +42,7 @@ ultima_data_formatada = ultima_data.strftime('%d/%m/%Y')
 
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = 'caioedu1031@gmail.com'
+mail.To = 'emailforexemple123@email.com'
 mail.Subject = 'Relatório de Gastos Pessoais'
 mail.HTMLBody = f'''
 <p>Prezados,</p>
